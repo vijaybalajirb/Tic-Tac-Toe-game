@@ -1,0 +1,35 @@
+body {
+  background-color: #cacaca;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 65px;
+  size: 50px;
+  color: #ffffff;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.card{
+  color:white;
+  background: rgb(221, 221, 23);
+}
+
+.card:hover{
+  color: rgb(44, 197, 146);
+  background-color: yellowgreen;
+}
